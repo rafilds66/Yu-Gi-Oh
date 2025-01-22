@@ -1,0 +1,22 @@
+/* reset.css */
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'CustomFont', sans-serif;
+}
+
+/* Importing custom font */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/fonte-yu-gi-oh.otf') format('woff2'),
+         url('../fonts/fonte-yu-gi-oh.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
