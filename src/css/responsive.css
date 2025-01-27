@@ -1,0 +1,49 @@
+@media(max-width: 768px) {
+   body {
+      background-position: center;
+      padding: 0 15px;
+   }
+
+   .slider{
+    gap: 10px;
+   }
+}
+
+@media(max-width: 496px) {
+    .lista-cartas{
+        width: 250px;
+    }
+
+    .imagem-carta{
+        width: 100%;
+    }
+
+    .slider{
+        position: relative;
+    }
+
+    .botao-seta{
+        position: absolute;
+        bottom: -13%;
+    }
+
+    #botao-avancar{
+        right: 20%;
+    }
+
+    #botao-voltar{
+        left: 20%;
+    }
+}
+
+@media(max-width: 375px) {
+   body{
+    justify-content: start;
+    padding-top: 10px;
+    gap: 10px;
+   }
+
+   .cabecalho{
+    font-size: 12px;
+   }
+}
